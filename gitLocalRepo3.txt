@@ -1,1 +1,27 @@
-ffsdrfd3333
+
+
+Admin@STUDENT36 MINGW64 /e/QAc/gitLocalRepo/jayhat1 (master)
+$ git add .
+
+Admin@STUDENT36 MINGW64 /e/QAc/gitLocalRepo/jayhat1 (master)
+$ git commit -m "gitLocalRepo3"
+[master b6f5b4f] gitLocalRepo3
+ 1 file changed, 1 insertion(+)
+ create mode 100644 gitLocalRepo3.txt
+
+Admin@STUDENT36 MINGW64 /e/QAc/gitLocalRepo/jayhat1 (master)
+$ git push
+fatal: HttpRequestException encountered.
+   An error occurred while sending the request.
+Username for 'https://github.com': jayhat7
+error: unable to read askpass response from 'C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass'
+Password for 'https://jayhat7@github.com':
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 309 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/jayhat7/jayhat1.git
+   459373e..b6f5b4f  master -> master
+
+Admin@STUDENT36 MINGW64 /e/QAc/gitLocalRepo/jayhat1 (master)
