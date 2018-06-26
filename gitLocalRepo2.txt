@@ -1,0 +1,96 @@
+dewcderferfe
+gitLocalRepository2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Admin@STUDENT36 MINGW64 /e/QAc/gitLocalRepo/jayhat1 (master)
+$ git add .
+
+Admin@STUDENT36 MINGW64 /e/QAc/gitLocalRepo/jayhat1 (master)
+$ git commit -m "first commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Admin@STUDENT36.(none)')
+
+Admin@STUDENT36 MINGW64 /e/QAc/gitLocalRepo/jayhat1 (master)
+$ git commit -m "first commit"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Admin@STUDENT36.(none)')
+
+Admin@STUDENT36 MINGW64 /e/QAc/gitLocalRepo/jayhat1 (master)
+$ ^C
+
+Admin@STUDENT36 MINGW64 /e/QAc/gitLocalRepo/jayhat1 (master)
+$ git config --global user.email "jayhat7@gmail.com"
+
+Admin@STUDENT36 MINGW64 /e/QAc/gitLocalRepo/jayhat1 (master)
+$ git config --global user.name "jayhat7"
+
+Admin@STUDENT36 MINGW64 /e/QAc/gitLocalRepo/jayhat1 (master)
+$ git push
+error: src refspec refs/heads/master does not match any.
+error: failed to push some refs to 'https://github.com/jayhat7/jayhat1.git'
+
+Admin@STUDENT36 MINGW64 /e/QAc/gitLocalRepo/jayhat1 (master)
+$ git push
+error: src refspec refs/heads/master does not match any.
+error: failed to push some refs to 'https://github.com/jayhat7/jayhat1.git'
+
+Admin@STUDENT36 MINGW64 /e/QAc/gitLocalRepo/jayhat1 (master)
+$ git add .
+
+Admin@STUDENT36 MINGW64 /e/QAc/gitLocalRepo/jayhat1 (master)
+$ git commit -m "first message"
+[master (root-commit) 7cc65af] first message
+ 1 file changed, 2 insertions(+)
+ create mode 100644 gitLocalRepo.txt
+
+Admin@STUDENT36 MINGW64 /e/QAc/gitLocalRepo/jayhat1 (master)
+$ git push
+fatal: HttpRequestException encountered.
+   An error occurred while sending the request.
+Username for 'https://github.com': jayhat7
+error: unable to read askpass response from 'C:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass'
+Password for 'https://jayhat7@github.com':
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 244 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/jayhat7/jayhat1.git
+ * [new branch]      master -> master
+
+Admin@STUDENT36 MINGW64 /e/QAc/gitLocalRepo/jayhat1 (master)
+
+
+
